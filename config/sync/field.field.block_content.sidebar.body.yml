@@ -1,0 +1,24 @@
+uuid: 1b9678c5-f063-48ac-b804-9285e10c3edf
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.sidebar
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.sidebar.body
+field_name: body
+entity_type: block_content
+bundle: sidebar
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary
