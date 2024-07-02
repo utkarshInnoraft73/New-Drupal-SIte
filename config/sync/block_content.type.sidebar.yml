@@ -1,0 +1,8 @@
+uuid: c1d7732b-dbc8-4d99-915b-2dbed818f6cb
+langcode: en
+status: true
+dependencies: {  }
+id: sidebar
+label: Sidebar
+revision: 0
+description: 'This block is for practice only'

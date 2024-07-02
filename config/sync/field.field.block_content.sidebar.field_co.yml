@@ -1,0 +1,33 @@
+uuid: a9e5e846-324c-48fc-be62-26fd34dc43de
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.sidebar
+    - field.storage.block_content.field_co
+    - node.type.article
+    - node.type.news
+    - node.type.page
+id: block_content.sidebar.field_co
+field_name: field_co
+entity_type: block_content
+bundle: sidebar
+label: 'Content type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      article: article
+      page: page
+      news: news
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: article
+field_type: entity_reference
